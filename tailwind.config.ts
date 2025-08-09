@@ -63,11 +63,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				vsok: {
-					orange: '#FF6B35',
-					cyan: '#4ECDC4',
-					blue: '#45B7D1',
-					gold: '#F7DC6F',
-					navy: '#2C3E50'
+					black: '#1A1A1A',
+					gold: '#D4AF37',
+					white: '#FFFFFF',
+					brown: '#8B4513',
+					'gold-light': '#F4E4BC',
+					'brown-light': '#D2B48C',
+					'black-soft': '#2D2D2D'
 				}
 			},
 			borderRadius: {

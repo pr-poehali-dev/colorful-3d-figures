@@ -7,25 +7,25 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-blue-50 to-cyan-50">
+    <div className="min-h-screen bg-gradient-to-br from-vsok-white via-vsok-gold-light/20 to-vsok-brown-light/20">
       {/* Header */}
       <header className="bg-white/90 backdrop-blur-sm border-b sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-r from-vsok-orange to-vsok-cyan rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-r from-vsok-gold to-vsok-brown rounded-lg flex items-center justify-center">
                 <Icon name="Boxes" className="text-white" size={24} />
               </div>
-              <h1 className="text-2xl font-bold text-vsok-navy" style={{ fontFamily: 'Montserrat' }}>VSok</h1>
+              <h1 className="text-2xl font-bold text-vsok-black" style={{ fontFamily: 'Montserrat' }}>VSok</h1>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#catalog" className="text-gray-700 hover:text-vsok-orange transition-colors">Каталог</a>
-              <a href="#gallery" className="text-gray-700 hover:text-vsok-orange transition-colors">Галерея</a>
-              <a href="#delivery" className="text-gray-700 hover:text-vsok-orange transition-colors">Доставка</a>
-              <a href="#contacts" className="text-gray-700 hover:text-vsok-orange transition-colors">Контакты</a>
-              <a href="#faq" className="text-gray-700 hover:text-vsok-orange transition-colors">FAQ</a>
+              <a href="#catalog" className="text-gray-700 hover:text-vsok-gold transition-colors">Каталог</a>
+              <a href="#gallery" className="text-gray-700 hover:text-vsok-gold transition-colors">Галерея</a>
+              <a href="#delivery" className="text-gray-700 hover:text-vsok-gold transition-colors">Доставка</a>
+              <a href="#contacts" className="text-gray-700 hover:text-vsok-gold transition-colors">Контакты</a>
+              <a href="#faq" className="text-gray-700 hover:text-vsok-gold transition-colors">FAQ</a>
             </div>
-            <Button className="bg-vsok-orange hover:bg-vsok-orange/90">
+            <Button className="bg-vsok-gold hover:bg-vsok-gold/90 text-vsok-black font-semibold">
               <Icon name="ShoppingCart" size={16} className="mr-2" />
               Корзина
             </Button>
@@ -36,10 +36,10 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-20 px-4 text-center animate-fade-in">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-5xl md:text-7xl font-bold text-vsok-navy mb-6 animate-scale-in" 
+          <h2 className="text-5xl md:text-7xl font-bold text-vsok-black mb-6 animate-scale-in" 
               style={{ fontFamily: 'Montserrat' }}>
             3D Фигурки
-            <span className="block bg-gradient-to-r from-vsok-orange via-vsok-cyan to-vsok-blue bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-vsok-gold via-vsok-brown to-vsok-black bg-clip-text text-transparent">
               Высшего Качества
             </span>
           </h2>
@@ -48,11 +48,11 @@ const Index = () => {
             Каждая деталь идеальна!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-to-r from-vsok-orange to-vsok-cyan hover:opacity-90 text-white font-semibold px-8">
+            <Button size="lg" className="bg-gradient-to-r from-vsok-gold to-vsok-brown hover:opacity-90 text-white font-semibold px-8">
               <Icon name="Eye" size={20} className="mr-2" />
               Смотреть каталог
             </Button>
-            <Button variant="outline" size="lg" className="border-vsok-blue text-vsok-blue hover:bg-vsok-blue hover:text-white">
+            <Button variant="outline" size="lg" className="border-vsok-brown text-vsok-brown hover:bg-vsok-brown hover:text-white">
               <Icon name="Phone" size={20} className="mr-2" />
               Заказать звонок
             </Button>
@@ -65,28 +65,28 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="text-center group hover-scale">
-              <div className="w-16 h-16 bg-gradient-to-br from-vsok-orange to-vsok-gold rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-vsok-gold to-vsok-brown rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Zap" className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold text-vsok-navy mb-2" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-xl font-semibold text-vsok-black mb-2" style={{ fontFamily: 'Montserrat' }}>
                 Качество 12К
               </h3>
               <p className="text-gray-600">Невероятная детализация благодаря технологии высокого разрешения</p>
             </div>
             <div className="text-center group hover-scale">
-              <div className="w-16 h-16 bg-gradient-to-br from-vsok-cyan to-vsok-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-vsok-brown to-vsok-black rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Truck" className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold text-vsok-navy mb-2" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-xl font-semibold text-vsok-black mb-2" style={{ fontFamily: 'Montserrat' }}>
                 Быстрая доставка
               </h3>
               <p className="text-gray-600">Отправляем заказы в день обращения по всей России</p>
             </div>
             <div className="text-center group hover-scale">
-              <div className="w-16 h-16 bg-gradient-to-br from-vsok-blue to-vsok-gold rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-vsok-black to-vsok-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Settings" className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold text-vsok-navy mb-2" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-xl font-semibold text-vsok-black mb-2" style={{ fontFamily: 'Montserrat' }}>
                 Индивидуальный заказ
               </h3>
               <p className="text-gray-600">Печатаем по вашим 3D-моделям любой сложности</p>
@@ -98,7 +98,7 @@ const Index = () => {
       {/* Catalog Section */}
       <section id="catalog" className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center text-vsok-navy mb-4" style={{ fontFamily: 'Montserrat' }}>
+          <h2 className="text-4xl font-bold text-center text-vsok-black mb-4" style={{ fontFamily: 'Montserrat' }}>
             Популярные модели
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -118,17 +118,17 @@ const Index = () => {
               </CardHeader>
               <CardContent className="p-6">
                 <div className="flex justify-between items-start mb-2">
-                  <CardTitle className="text-vsok-navy" style={{ fontFamily: 'Montserrat' }}>
+                  <CardTitle className="text-vsok-black" style={{ fontFamily: 'Montserrat' }}>
                     Игровые фигурки
                   </CardTitle>
-                  <Badge className="bg-vsok-cyan text-white">ХИТ</Badge>
+                  <Badge className="bg-vsok-brown text-white">ХИТ</Badge>
                 </div>
                 <CardDescription className="mb-4">
                   Детализированные персонажи для настольных игр и коллекционирования
                 </CardDescription>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-vsok-orange">от 299₽</span>
-                  <Button size="sm" className="bg-vsok-orange hover:bg-vsok-orange/90">
+                  <span className="text-2xl font-bold text-vsok-gold">от 299₽</span>
+                  <Button size="sm" className="bg-vsok-gold hover:bg-vsok-gold/90 text-vsok-black font-semibold">
                     В корзину
                   </Button>
                 </div>
@@ -147,17 +147,17 @@ const Index = () => {
               </CardHeader>
               <CardContent className="p-6">
                 <div className="flex justify-between items-start mb-2">
-                  <CardTitle className="text-vsok-navy" style={{ fontFamily: 'Montserrat' }}>
+                  <CardTitle className="text-vsok-black" style={{ fontFamily: 'Montserrat' }}>
                     Механические детали
                   </CardTitle>
-                  <Badge variant="outline" className="border-vsok-blue text-vsok-blue">ТОЧНОСТЬ</Badge>
+                  <Badge variant="outline" className="border-vsok-brown text-vsok-brown">ТОЧНОСТЬ</Badge>
                 </div>
                 <CardDescription className="mb-4">
                   Шестеренки, подшипники и другие технические компоненты
                 </CardDescription>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-vsok-orange">от 159₽</span>
-                  <Button size="sm" className="bg-vsok-orange hover:bg-vsok-orange/90">
+                  <span className="text-2xl font-bold text-vsok-gold">от 159₽</span>
+                  <Button size="sm" className="bg-vsok-gold hover:bg-vsok-gold/90 text-vsok-black font-semibold">
                     В корзину
                   </Button>
                 </div>
@@ -176,7 +176,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="p-6">
                 <div className="flex justify-between items-start mb-2">
-                  <CardTitle className="text-vsok-navy" style={{ fontFamily: 'Montserrat' }}>
+                  <CardTitle className="text-vsok-black" style={{ fontFamily: 'Montserrat' }}>
                     Коллекционные наборы
                   </CardTitle>
                   <Badge className="bg-vsok-gold text-white">СКИДКА</Badge>
@@ -185,8 +185,8 @@ const Index = () => {
                   Готовые наборы фигурок со скидкой до 30%
                 </CardDescription>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-vsok-orange">от 999₽</span>
-                  <Button size="sm" className="bg-vsok-orange hover:bg-vsok-orange/90">
+                  <span className="text-2xl font-bold text-vsok-gold">от 999₽</span>
+                  <Button size="sm" className="bg-vsok-gold hover:bg-vsok-gold/90 text-vsok-black font-semibold">
                     В корзину
                   </Button>
                 </div>
@@ -195,7 +195,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" variant="outline" className="border-vsok-cyan text-vsok-cyan hover:bg-vsok-cyan hover:text-white">
+            <Button size="lg" variant="outline" className="border-vsok-cyan text-vsok-brown hover:bg-vsok-cyan hover:text-white">
               <Icon name="Grid3x3" size={20} className="mr-2" />
               Посмотреть весь каталог
             </Button>
@@ -206,7 +206,7 @@ const Index = () => {
       {/* Gallery Section */}
       <section id="gallery" className="py-20 px-4 bg-gradient-to-r from-vsok-cyan/10 to-vsok-blue/10">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold text-vsok-navy mb-4" style={{ fontFamily: 'Montserrat' }}>
+          <h2 className="text-4xl font-bold text-vsok-black mb-4" style={{ fontFamily: 'Montserrat' }}>
             Галерея работ
           </h2>
           <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -227,13 +227,13 @@ const Index = () => {
       {/* FAQ Section */}
       <section id="faq" className="py-20 px-4">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="text-4xl font-bold text-center text-vsok-navy mb-12" style={{ fontFamily: 'Montserrat' }}>
+          <h2 className="text-4xl font-bold text-center text-vsok-black mb-12" style={{ fontFamily: 'Montserrat' }}>
             Частые вопросы
           </h2>
           
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="bg-white/50 rounded-lg px-6 border-0">
-              <AccordionTrigger className="text-left font-semibold text-vsok-navy hover:text-vsok-orange">
+              <AccordionTrigger className="text-left font-semibold text-vsok-black hover:text-vsok-gold">
                 Какое качество печати вы гарантируете?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
@@ -243,7 +243,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="item-2" className="bg-white/50 rounded-lg px-6 border-0">
-              <AccordionTrigger className="text-left font-semibold text-vsok-navy hover:text-vsok-orange">
+              <AccordionTrigger className="text-left font-semibold text-vsok-black hover:text-vsok-gold">
                 Сколько времени занимает печать и доставка?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
@@ -253,7 +253,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="item-3" className="bg-white/50 rounded-lg px-6 border-0">
-              <AccordionTrigger className="text-left font-semibold text-vsok-navy hover:text-vsok-orange">
+              <AccordionTrigger className="text-left font-semibold text-vsok-black hover:text-vsok-gold">
                 Можете ли вы напечатать мою собственную модель?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
@@ -263,7 +263,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="item-4" className="bg-white/50 rounded-lg px-6 border-0">
-              <AccordionTrigger className="text-left font-semibold text-vsok-navy hover:text-vsok-orange">
+              <AccordionTrigger className="text-left font-semibold text-vsok-black hover:text-vsok-gold">
                 Какие материалы вы используете?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
@@ -278,40 +278,40 @@ const Index = () => {
       {/* Delivery Section */}
       <section id="delivery" className="py-20 px-4 bg-white/30">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center text-vsok-navy mb-12" style={{ fontFamily: 'Montserrat' }}>
+          <h2 className="text-4xl font-bold text-center text-vsok-black mb-12" style={{ fontFamily: 'Montserrat' }}>
             Доставка и оплата
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             <div>
-              <h3 className="text-2xl font-semibold text-vsok-navy mb-6" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-2xl font-semibold text-vsok-black mb-6" style={{ fontFamily: 'Montserrat' }}>
                 Способы доставки
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-vsok-orange/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Icon name="MapPin" size={16} className="text-vsok-orange" />
+                  <div className="w-8 h-8 bg-vsok-gold/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="MapPin" size={16} className="text-vsok-gold" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-vsok-navy">Курьером по Москве</h4>
+                    <h4 className="font-semibold text-vsok-black">Курьером по Москве</h4>
                     <p className="text-gray-600">Доставка в день заказа — 300₽</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-vsok-cyan/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Icon name="Package" size={16} className="text-vsok-cyan" />
+                  <div className="w-8 h-8 bg-vsok-brown/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Package" size={16} className="text-vsok-brown" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-vsok-navy">Почта России</h4>
+                    <h4 className="font-semibold text-vsok-black">Почта России</h4>
                     <p className="text-gray-600">По всей стране — от 200₽</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-vsok-blue/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Icon name="Truck" size={16} className="text-vsok-blue" />
+                  <div className="w-8 h-8 bg-vsok-brown/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Truck" size={16} className="text-vsok-brown" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-vsok-navy">СДЭК</h4>
+                    <h4 className="font-semibold text-vsok-black">СДЭК</h4>
                     <p className="text-gray-600">До пункта выдачи — от 150₽</p>
                   </div>
                 </div>
@@ -319,7 +319,7 @@ const Index = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-vsok-navy mb-6" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-2xl font-semibold text-vsok-black mb-6" style={{ fontFamily: 'Montserrat' }}>
                 Способы оплаты
               </h3>
               <div className="space-y-4">
@@ -328,25 +328,25 @@ const Index = () => {
                     <Icon name="CreditCard" size={16} className="text-vsok-gold" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-vsok-navy">Банковские карты</h4>
+                    <h4 className="font-semibold text-vsok-black">Банковские карты</h4>
                     <p className="text-gray-600">Visa, MasterCard, МИР</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-vsok-orange/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Icon name="Smartphone" size={16} className="text-vsok-orange" />
+                  <div className="w-8 h-8 bg-vsok-gold/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Smartphone" size={16} className="text-vsok-gold" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-vsok-navy">Электронные кошельки</h4>
+                    <h4 className="font-semibold text-vsok-black">Электронные кошельки</h4>
                     <p className="text-gray-600">ЮMoney, QIWI, WebMoney</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-vsok-cyan/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Icon name="Banknote" size={16} className="text-vsok-cyan" />
+                  <div className="w-8 h-8 bg-vsok-brown/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <Icon name="Banknote" size={16} className="text-vsok-brown" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-vsok-navy">Наличные</h4>
+                    <h4 className="font-semibold text-vsok-black">Наличные</h4>
                     <p className="text-gray-600">При получении заказа</p>
                   </div>
                 </div>
@@ -359,16 +359,16 @@ const Index = () => {
       {/* Contacts Section */}
       <section id="contacts" className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center text-vsok-navy mb-12" style={{ fontFamily: 'Montserrat' }}>
+          <h2 className="text-4xl font-bold text-center text-vsok-black mb-12" style={{ fontFamily: 'Montserrat' }}>
             Контакты
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto text-center">
             <div className="hover-scale">
-              <div className="w-16 h-16 bg-gradient-to-br from-vsok-orange to-vsok-gold rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-vsok-gold to-vsok-brown rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Phone" className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold text-vsok-navy mb-2" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-xl font-semibold text-vsok-black mb-2" style={{ fontFamily: 'Montserrat' }}>
                 Телефон
               </h3>
               <p className="text-gray-600">+7 (495) 123-45-67</p>
@@ -376,10 +376,10 @@ const Index = () => {
             </div>
 
             <div className="hover-scale">
-              <div className="w-16 h-16 bg-gradient-to-br from-vsok-cyan to-vsok-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-vsok-brown to-vsok-black rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Mail" className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold text-vsok-navy mb-2" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-xl font-semibold text-vsok-black mb-2" style={{ fontFamily: 'Montserrat' }}>
                 Email
               </h3>
               <p className="text-gray-600">orders@vsok.ru</p>
@@ -387,10 +387,10 @@ const Index = () => {
             </div>
 
             <div className="hover-scale">
-              <div className="w-16 h-16 bg-gradient-to-br from-vsok-blue to-vsok-gold rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-vsok-black to-vsok-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="MessageCircle" className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold text-vsok-navy mb-2" style={{ fontFamily: 'Montserrat' }}>
+              <h3 className="text-xl font-semibold text-vsok-black mb-2" style={{ fontFamily: 'Montserrat' }}>
                 Telegram
               </h3>
               <p className="text-gray-600">@vsok_support</p>
@@ -406,7 +406,7 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-vsok-orange to-vsok-cyan rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-gradient-to-r from-vsok-gold to-vsok-brown rounded-lg flex items-center justify-center">
                   <Icon name="Boxes" className="text-white" size={20} />
                 </div>
                 <h3 className="text-xl font-bold" style={{ fontFamily: 'Montserrat' }}>VSok</h3>
@@ -419,20 +419,20 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4" style={{ fontFamily: 'Montserrat' }}>Каталог</h4>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li><a href="#" className="hover:text-vsok-orange transition-colors">Игровые фигурки</a></li>
-                <li><a href="#" className="hover:text-vsok-orange transition-colors">Механические детали</a></li>
-                <li><a href="#" className="hover:text-vsok-orange transition-colors">Коллекционные модели</a></li>
-                <li><a href="#" className="hover:text-vsok-orange transition-colors">Индивидуальные заказы</a></li>
+                <li><a href="#" className="hover:text-vsok-gold transition-colors">Игровые фигурки</a></li>
+                <li><a href="#" className="hover:text-vsok-gold transition-colors">Механические детали</a></li>
+                <li><a href="#" className="hover:text-vsok-gold transition-colors">Коллекционные модели</a></li>
+                <li><a href="#" className="hover:text-vsok-gold transition-colors">Индивидуальные заказы</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold mb-4" style={{ fontFamily: 'Montserrat' }}>Информация</h4>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li><a href="#delivery" className="hover:text-vsok-cyan transition-colors">Доставка</a></li>
-                <li><a href="#faq" className="hover:text-vsok-cyan transition-colors">FAQ</a></li>
-                <li><a href="#" className="hover:text-vsok-cyan transition-colors">Гарантия качества</a></li>
-                <li><a href="#" className="hover:text-vsok-cyan transition-colors">Возврат товара</a></li>
+                <li><a href="#delivery" className="hover:text-vsok-brown transition-colors">Доставка</a></li>
+                <li><a href="#faq" className="hover:text-vsok-brown transition-colors">FAQ</a></li>
+                <li><a href="#" className="hover:text-vsok-brown transition-colors">Гарантия качества</a></li>
+                <li><a href="#" className="hover:text-vsok-brown transition-colors">Возврат товара</a></li>
               </ul>
             </div>
 

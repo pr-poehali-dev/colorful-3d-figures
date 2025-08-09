@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 11 100% 60%;
+    --primary: 45 100% 51%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -109,6 +109,14 @@
   }
 
   .gradient-vsok {
-    background: linear-gradient(135deg, #ff6b35, #4ecdc4, #45b7d1);
+    background: linear-gradient(135deg, #d4af37, #8b4513, #1a1a1a);
+  }
+
+  .gradient-gold {
+    background: linear-gradient(135deg, #d4af37, #f4e4bc);
+  }
+
+  .gradient-premium {
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d, #d4af37);
   }
 }
